@@ -970,7 +970,6 @@ class GoogleMap extends Component {
     this.mouse_.lat = latLng.lat;
     this.mouse_.lng = latLng.lng;
 
-    console.log("test", this.props.onMouseMove)
     if (this.props.onMouseMove != undefined) {
       this.props.onMouseMove(this.mouse_);
     }
